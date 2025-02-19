@@ -14,7 +14,7 @@
 
 import yagmail
    
-yag_mail = yagmail.SMTP(user='cs3907.edgelab@gmail.com', password='xxno qtzm rbpu citz', host='smtp.gmail.com')
+yag_mail = yagmail.SMTP(user='cs3907.edgelab@gmail.com', password="xxno qtzm rbpu citz", host='smtp.gmail.com')
   
 To= "kartik.bulusu@gmail.com" # Use temp-mail.org for testing this code
 Subject = "Welcome to MAE 6291!!"
