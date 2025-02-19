@@ -14,10 +14,10 @@
 
 import yagmail
    
-yag_mail = yagmail.SMTP(user='cs3907.edgelab@gmail.com', password='jxoy ousb tnxz pxsl', host='smtp.gmail.com')
+yag_mail = yagmail.SMTP(user='cs3907.edgelab@gmail.com', password='xxno qtzm rbpu citz', host='smtp.gmail.com')
   
 To= "kartik.bulusu@gmail.com" # Use temp-mail.org for testing this code
-Subject = "Welcome to CSCI 4907!!"
+Subject = "Welcome to MAE 6291!!"
 Body = """
         Opening the doors to IoT and Edge Compute.
 
