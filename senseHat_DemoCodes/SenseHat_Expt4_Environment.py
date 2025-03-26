@@ -9,13 +9,13 @@ import time
 from time import asctime
 
 email_sender = "cs3907.edgelab@gmail.com"
-email_password = "uhoj xyxj apmc knms"
+email_password = "xxno qtzm rbpu citz"
 email_receiver = "kartik.bulusu@gmail.com"
 
-#sense = SenseHat()
-#temp = round(sense.get_temperature()*1.8+32)
-#humidity = round(sense.get_humidity())
-#pressure = round(sense.get_pressure())
+sense = SenseHat()
+temp = round(sense.get_temperature()*1.8+32)
+humidity = round(sense.get_humidity())
+pressure = round(sense.get_pressure())
 #message = ' T=%dF, H=%d, P =%d ' %(temp,humidity,pressure)
 #sense.show_message(message, scroll_speed=(0.08), text_colour = [200, 240, 200], back_colour = [0,0,0])
 #
@@ -34,9 +34,9 @@ msg['Subject'] = "Temp Rasp"
 #"""
 
 header = ' FirstName LastName sent the following data on ' + now + '\n'
-#data = ' T=%dF, H=%d, P =%d \n' %(temp,humidity,pressure)
-#body = header + data
-body = header
+data = ' T=%dF, H=%d, P =%d \n' %(temp,humidity,pressure)
+body = header + data
+#body = header
 
 msg.set_content(body)
 
