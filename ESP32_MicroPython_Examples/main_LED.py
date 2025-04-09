@@ -19,7 +19,7 @@
 
 from machine import Pin
 from time import sleep
-led = Pin(13, Pin.OUT)
+led = Pin(2, Pin.OUT)
 # while True:
 for _ in range(10):
     led.value(not led.value())
