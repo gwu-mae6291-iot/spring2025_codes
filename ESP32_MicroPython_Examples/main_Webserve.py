@@ -24,7 +24,7 @@ from machine import Pin
 import network
 
 #use the builtin LED
-led = Pin(13, Pin.OUT)
+led = Pin(2, Pin.OUT)
 
 #def do_connect1():
 ap = network.WLAN(network.AP_IF)
