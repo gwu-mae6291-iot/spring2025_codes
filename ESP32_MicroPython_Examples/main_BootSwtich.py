@@ -22,7 +22,7 @@
 from machine import Pin
 from time import sleep
 
-led = Pin(13, Pin.OUT)
+led = Pin(2, Pin.OUT)
 bt_swch = Pin(0, Pin.IN)
 
 print(bt_swch.value())
