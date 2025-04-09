@@ -31,7 +31,7 @@ esp.osdebug(None)
 import gc
 gc.collect()
 
-ssid = 'ESP32_CS3907D' # SHOULD BE CHANGED FOR EACH ESP32 USED in CLASS
+ssid = 'ESP32_MAE6291D' # SHOULD BE CHANGED FOR EACH ESP32 USED in CLASS
 password = 'PASSWORD123456789' # CAN STAY THE SAME FOR IN-CLASS DEMO
 
 ap = network.WLAN(network.AP_IF)
